@@ -1,0 +1,19 @@
+{
+    "name": "blainesch/phptesting",
+    "description": "Some test examples in PHP.",
+    "require": {
+        "php": ">=5.4",
+        "phpunit/PHPUnit": "3.7.*",
+        "behat/behat": "2.4.*@stable",
+        "composer/composer": "1.0.*@dev",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "chase\\": "./",
+            "television\\": "./",
+            "tests\\": "./"
+        }
+    }
+}

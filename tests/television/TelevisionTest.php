@@ -25,7 +25,10 @@ class TelevisionTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function testVolumeDown() {
+		$this->television->volume(10);
+
 		$this->television->volume('down');
+
 		$this->assertEquals(9, $this->television->volume);
 	}
 
